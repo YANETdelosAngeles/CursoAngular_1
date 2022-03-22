@@ -1,0 +1,12 @@
+<ng-container *ngIf="{ total: total$ | async, quantity: quantity$ |async} as dataCart">
+  <ng-container *ngIf="dataCart.total">
+    <mat-icon>add_shopping_cart</mat-icon>
+    {{dataCart.total | currency}}
+    ({{dataCart.quantity}})
+  </ng-container>
+</ng-container>
+<!--
+{{quantity$ | async | json}} - Quantity  //llama al observable que regresa la cantidad de elementos agregados al carrito
+{{total$ | async | json}} -Total  //llama al observable que regresa el total a pagar de los productos del carrito
+{{cart$ | async | json}} - cart //llama al observable que agregar productos al carrito
+-->

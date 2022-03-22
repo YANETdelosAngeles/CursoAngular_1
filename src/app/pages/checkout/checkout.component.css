@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  padding: 5em 5em;
+  background-color:black;
+}
+
+.item{
+  flex: 1 1 auto;
+}
+
+.form{
+  width: 100%;
+  color:antiquewhite;
+}
+
+.form-element{
+  padding: 5px 0px 25px 2px;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+button{
+  width: 100%;
+}
+
+.container_button{
+  margin: 0 auto;
+  display: block;
+  width: 20%;
+  margin-top: 4rem;
+}

@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.mouseHover{
+  align-items: center;
+  border-radius: .2rem;
+  cursor: pointer;
+  display: flex;
+  padding: .1rem .5rem;
+  transition: background-color .25s ease-in-out;
+}
+
+.mouseHover:hover{
+  background-color: rgb(112, 105, 190);
+  background-size: cover;
+  padding: 1.5em;
+  cursor: pointer;
+  transition: all 0.7 ease-in-out;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding: 2.5em;
+  /*background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-cool-gradient-fireworks-technology-background-material-backgroundgradientcolorfireworks-backgroundtechnical-materialposter-image_50058.jpg);
+  */
+  background-color: rgba(134, 129, 192, 0.863);
+  border-left: 50px solid rgba(150, 146, 199, 0.863);
+  border-right: 50px solid rgba(150, 146, 199, 0.863);
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
