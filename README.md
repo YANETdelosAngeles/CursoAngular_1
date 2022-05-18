@@ -1,3 +1,10 @@
+# CursoAngular_1
+
+iniciar servidor desde la carpera server
+  ejecutando "npm run serverAPI"
+  
+iniciar proyecto Angular desde la carpeta principal y ejecutar "ng serve"
+
 # CursoAng
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
